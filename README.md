@@ -1,4 +1,4 @@
-# Kyambuthia Blog Content
+grt# Kyambuthia Blog Content
 
 This repository contains the articles and translations for [kyambuthia.com](https://kyambuthia.com). It is integrated into the main website as a Git submodule.
 

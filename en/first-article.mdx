@@ -10,21 +10,40 @@ export const metadata = {
 
 # UI test article
 
-![Lilies](/blog-assets/lillies.png)
 
 This is a <WordNote note="This highlighted phrase is intentionally annotated so we can test the note interaction UI.">test article</WordNote> to test out the UI.
+
+This paragraph is filler copy designed to validate spacing, line length, and readability in longer posts. It should help test how the content column feels over multiple sentence lengths and punctuation patterns.
 
 ## Layout check
 
 Use this section to confirm spacing, typography, and alignment behavior across desktop and mobile.
 
+Add scroll depth checks here: large viewports, small viewports, and intermediate tablet layouts should all feel consistent. This section also helps verify where section headings land when linked from the summary area.
+
 ## Annotation check
 
 Click the highlighted text above to verify annotation interactions and popup behavior.
 
+Add another annotation example inline: this phrase is <WordNote note="Second annotation to validate multiple note ordering and panel positioning.">also annotated</WordNote> for repeatability testing.
+
+## Content density check
+
+This block intentionally increases paragraph density to test rhythm and breathing room.
+
+- A short bullet to check list spacing.
+- A medium bullet with enough text to wrap into a second line and confirm visual alignment.
+- A long bullet that wraps further so we can verify indentation, line-height, and margin behavior under realistic content volume.
+
 ## Summary check
 
 This heading exists so the summary area can pick up section links correctly.
+
+When adding or removing headings, the summary list should update without duplicate IDs, broken links, or stale anchors. This paragraph confirms summary generation under normal editorial changes.
+
+## Footer check
+
+This final section exists to verify the lower page area, including note overlays, long-scroll behavior, and sticky controls near the end of content.
 
 ---
 
